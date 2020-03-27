@@ -156,7 +156,7 @@ class TrainDataset(Dataset):
     def __getitem__(self, idx):
         return torch.from_numpy(self.imgs[idx,...]).float()
 
-batch_size = 32
+batch_size = 1024
 
 test_set = TrainDataset(patches_imgs_test)
 test_loader = DataLoader(test_set, batch_size=batch_size,
