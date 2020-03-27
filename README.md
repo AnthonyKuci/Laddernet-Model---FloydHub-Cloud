@@ -1,5 +1,5 @@
 # Laddernet-Model---FloydHub-Cloud
-
+This is an implementation of laddernet model designed by https://github.com/juntang-zhuang/LadderNet, configured to run on FloydHub. Currently on Beta Version
 
 * Implementation for paper [LadderNet: Multi-path networks based on U-Net for medical image segmentation
 ](https://arxiv.org/abs/1810.07810)
